@@ -24,7 +24,7 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           script_stop: true
           script: |
-            cd /root/repos/alosans
+            cd /root/repos/matafurros
             git pull origin main
             docker-compose restart
             echo "ok"
